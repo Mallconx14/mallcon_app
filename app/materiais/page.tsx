@@ -9,13 +9,13 @@ export default function Materiais() {
             <button onClick={() => setFerramentas('1')}>Carriola</button>
             <button onClick={() => setFerramentas('2')}>Pá de bico</button>
             <button onClick={() => setFerramentas('3')}>Desempenadeira</button>
-            {ferramentas ==  '1' &&
+            {ferramentas == '1' &&
                 <p>Função: transportar cargas pesadas, entulhos e materiais de construção em geral.</p>
             }
-            {ferramentas ==  '2' &&
+            {ferramentas == '2' &&
                 <p>Função: cavar o solo e juntar ou carregar materiais soltos.</p>
             }
-            {ferramentas ==  '3' &&
+            {ferramentas == '3' &&
                 <p>Função: aplicar, nivelar e dar acabamento em argamassa, reboco ou gesso.</p>
             }
         </>
