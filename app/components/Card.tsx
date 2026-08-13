@@ -1,19 +1,23 @@
 'use client'
 
+import { title } from "process"
+
 interface cardProps {
-    texto: string,
-    texto2: string
+    tag: string,
+    title: string,
+    description: string,
+    botao: string
 }
 
-export default function ({ texto, texto2 }: cardProps) {
+export default function ({ tag, title, description, botao }: cardProps) {
     return (
         <>
             <div className="card">
                 <div className="card-content">
-                    <span className="card-tag">Tag do card</span>
-                    <h3 className="card-title">Testando título do card</h3>
-                    <p className="card-description">Descrição do card</p>
-                    <a href="#" className="card-btn">Leia mais</a>
+                    <span className="card-tag">{tag}</span>
+                    <h3 className="card-title">{title}</h3>
+                    <p className="card-description">{description}</p>
+                    <a href="#" className="card-btn">{botao}</a>
                 </div>
             </div>
         </>
