@@ -1,7 +1,5 @@
 'use client'
 
-import { title } from "process"
-
 interface cardProps {
     tag: string,
     title: string,

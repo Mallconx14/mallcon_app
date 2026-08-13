@@ -1,6 +1,6 @@
 import Card from "../components/Card";
 
-export default function () {
+export default function Escolas() {
     return (
         <>
             <h1>Texto sobre a escola</h1>
